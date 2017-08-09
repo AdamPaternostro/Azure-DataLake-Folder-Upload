@@ -8,7 +8,7 @@ Login-AzureRmAccount
 Select-AzureRmSubscription -SubscriptionId $subscriptionId
  
 # Upload to Data Lake
-Get-ChildItem "C:\Users\adampaternostro\Desktop\Publix\" | 
+Get-ChildItem "C:\Users\myuser\Desktop\MyData\" | 
 Foreach-Object {
     
 
